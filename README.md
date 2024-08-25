@@ -1,3 +1,64 @@
+Deployed url: https://salmansoori.github.io/mini-auth-app/
+
+# Authentication mini UI React App
+
+This is a simple React application that serves as the UI part of an authentication app. It includes the following components:
+
+- **Login Form**
+- **Signup Form**
+- **Home Page**
+- ""Login Form in modal""
+- ""Signup form in modal"
+
+Folder Structure
+auth-ui-react-app/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── login
+│   │   ├── signup
+│   │   ├── home 
+│   │   ├── inputField // responsible to create input field
+│   │   └── modal // Responsible for showing component in modal
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── .gitignore
+├── package.json
+├── README.md
+└── ...
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Salmansoori/mini-auth-app.git
+   cd mini-auth-app
+
+Install the dependencies:
+
+Using npm:
+npm install
+
+Or using Yarn:
+yarn install
+
+**Running the App**
+Start the development server:
+
+Using npm:
+npm start
+
+Or using Yarn:
+yarn start
+
+Open the app in your browser:
+
+Visit http://localhost:3000 to see the app running.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
