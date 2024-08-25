@@ -10,26 +10,6 @@ This is a simple React application that serves as the UI part of an authenticati
 - ""Login Form in modal""
 - ""Signup form in modal"
 
-Folder Structure
-auth-ui-react-app/
-├── public/
-│   ├── index.html
-│   └── ...
-├── src/
-│   ├── components/
-│   │   ├── login
-│   │   ├── signup
-│   │   ├── home 
-│   │   ├── inputField // responsible to create input field
-│   │   └── modal // Responsible for showing component in modal
-│   ├── App.js
-│   ├── index.js
-│   └── ...
-├── .gitignore
-├── package.json
-├── README.md
-└── ...
-
 ### Installation
 
 1. **Clone the repository:**
