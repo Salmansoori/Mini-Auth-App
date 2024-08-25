@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mini-auth-app/public/static/css/main.503df24e.css",
-    "main.js": "/mini-auth-app/public/static/js/main.41b3ae54.js",
-    "static/js/453.133822ac.chunk.js": "/mini-auth-app/public/static/js/453.133822ac.chunk.js",
-    "static/media/logo.svg": "/mini-auth-app/public/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/mini-auth-app/public/index.html",
-    "main.503df24e.css.map": "/mini-auth-app/public/static/css/main.503df24e.css.map",
-    "main.41b3ae54.js.map": "/mini-auth-app/public/static/js/main.41b3ae54.js.map",
-    "453.133822ac.chunk.js.map": "/mini-auth-app/public/static/js/453.133822ac.chunk.js.map"
+    "main.css": "/mini-auth-app/static/css/main.503df24e.css",
+    "main.js": "/mini-auth-app/static/js/main.9890bd02.js",
+    "static/js/453.133822ac.chunk.js": "/mini-auth-app/static/js/453.133822ac.chunk.js",
+    "static/media/logo.svg": "/mini-auth-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/mini-auth-app/index.html",
+    "main.503df24e.css.map": "/mini-auth-app/static/css/main.503df24e.css.map",
+    "main.9890bd02.js.map": "/mini-auth-app/static/js/main.9890bd02.js.map",
+    "453.133822ac.chunk.js.map": "/mini-auth-app/static/js/453.133822ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.503df24e.css",
-    "static/js/main.41b3ae54.js"
+    "static/js/main.9890bd02.js"
   ]
 }
