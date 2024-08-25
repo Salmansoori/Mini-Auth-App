@@ -17,7 +17,7 @@ function Login({
 
   const handleRegisterClick = () => {
     if (!selectedModalType) {
-      navigate("/Signup");
+      navigate("/mini-auth-app/signup");
     } else {
       setSelectedModalType("SIGNUP");
     }
@@ -25,7 +25,7 @@ function Login({
 
   const handleLogin = (e) => {
     e.preventDefault();
-    navigate("/home");
+    navigate("/mini-auth-app/home");
     onClose();
   };
 

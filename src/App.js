@@ -57,7 +57,7 @@ function App() {
         />
         <Routes>
           <Route
-            path="/login"
+            path="/mini-auth-app/login"
             element={
               <Login
                 onClose={closeSignupModal}
@@ -70,7 +70,7 @@ function App() {
             }
           />
           <Route
-            path="/signup"
+            path="/mini-auth-app/signup"
             element={
               <Signup
                 onClose={closeSignupModal}
@@ -82,7 +82,7 @@ function App() {
             }
           />
           <Route
-            path="/home"
+            path="/mini-auth-app/home"
             element={
               <Home
                 posts={posts}
@@ -92,7 +92,7 @@ function App() {
             }
           />
           <Route
-            path="/"
+            path="/mini-auth-app"
             element={
               <Login
                 onClose={closeSignupModal}

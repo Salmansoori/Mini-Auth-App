@@ -22,12 +22,12 @@ const Signup = ({
   const handleContinue = (e) => {
     e.preventDefault();
     onClose();
-    navigate("/home");
+    navigate("/mini-auth-app/home");
   };
 
   const handleLoginClick = () => {
     if (!selectedModalType) {
-      navigate("/login");
+      navigate("/mini-auth-app/login");
       return;
     }
     handlePostClick("LOGIN");
