@@ -10,6 +10,16 @@ This is a simple React application that serves as the UI part of an authenticati
 - ""Login Form in modal""
 - ""Signup form in modal"
 
+Code Overview
+The application is structured around routing, with the main App component responsible for displaying different components based on the current route. The components folder contains five key components, each serving a specific function within the app:
+
+Login Component: Handles the login form, allowing users to input their credentials and log in to the application.
+Signup Component: Manages the signup form, enabling new users to create an account by providing necessary details.
+Home Component: Displays all posts or content relevant to the logged-in user, acting as the main content area after authentication.
+InputField Component: A reusable component designed to create input fields dynamically based on the field type, ensuring consistency across forms.
+Modal Component: Provides a modal window to display content or other components in an overlay, enhancing user interaction by focusing attention on important actions.
+
+
 ### Installation
 
 1. **Clone the repository:**
@@ -21,19 +31,19 @@ This is a simple React application that serves as the UI part of an authenticati
 Install the dependencies:
 
 Using npm:
-npm install
+- npm install
 
 Or using Yarn:
-yarn install
+- yarn install
 
 **Running the App**
 Start the development server:
 
 Using npm:
-npm start
+- npm start
 
 Or using Yarn:
-yarn start
+- yarn start
 
 Open the app in your browser:
 
